@@ -10,6 +10,7 @@ section#dual-columns{
     height: 600px;
     /* background-color: yellow; */
     margin: 2rem 0;
+    flex-wrap: wrap;
 }
 
 section#dual-columns > *{
@@ -17,15 +18,16 @@ section#dual-columns > *{
 }
 
 section#dual-columns > aside{
-    width: calc(20% - 1rem);
+    width: 20%;
     height: 60%;
     background-color: #3535eb;
-    margin-right: 2rem;
+    /* margin-left: 2rem; */
 }
 
 section#dual-columns > section{
-    width: calc(80% - 1rem);
+    width: calc(60% - 4rem);
     background-color: #f61668;
+    margin: 0 2rem;
 }
 
 main > header,
